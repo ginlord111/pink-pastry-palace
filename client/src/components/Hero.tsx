@@ -61,7 +61,7 @@ export function Hero() {
             <div className="h-12 w-px bg-white/20" />
             <div className="text-center">
               <p className="font-serif text-3xl font-bold text-white">Free</p>
-              <p className="text-sm text-white/70">Delivery $50+</p>
+              <p className="text-sm text-white/70">Delivery ₱50+</p>
             </div>
           </div>
         </div>
