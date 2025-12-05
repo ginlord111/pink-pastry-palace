@@ -85,7 +85,7 @@ export function CartDrawer() {
                         </Button>
                       </div>
                       <p className="text-sm font-semibold" data-testid={`text-cart-item-price-${item.productId}`}>
-                        ${item.product.price.toFixed(2)}
+                       ₱ {item.product.price.toFixed(2)}
                       </p>
                       <div className="mt-auto flex items-center gap-2">
                         <Button
@@ -120,23 +120,23 @@ export function CartDrawer() {
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Subtotal</span>
-                  <span data-testid="text-cart-subtotal">${subtotal.toFixed(2)}</span>
+                  <span data-testid="text-cart-subtotal">₱{subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Delivery</span>
                   <span data-testid="text-cart-delivery">
-                    {deliveryFee === 0 ? "Free" : `$${deliveryFee.toFixed(2)}`}
+                    {deliveryFee === 0 ? "Free" : `₱${deliveryFee.toFixed(2)}`}
                   </span>
                 </div>
                 {subtotal > 0 && subtotal < 50 && (
                   <p className="text-xs text-muted-foreground">
-                    Add ${(50 - subtotal).toFixed(2)} more for free delivery!
+                    Add ₱{(50 - subtotal).toFixed(2)} more for free delivery!
                   </p>
                 )}
                 <Separator />
                 <div className="flex justify-between text-base font-semibold">
                   <span>Total</span>
-                  <span data-testid="text-cart-total">${total.toFixed(2)}</span>
+                  <span data-testid="text-cart-total">₱{total.toFixed(2)}</span>
                 </div>
               </div>
 

@@ -25,8 +25,9 @@ export class MemStorage implements IStorage {
       {
         id: "1",
         name: "Butter Croissant",
-        description: "Flaky, buttery layers of perfection. Our signature croissant is made with imported French butter.",
-        price: 4.50,
+        description:
+          "Flaky, buttery layers of perfection. Our signature croissant is made with imported French butter.",
+        price: 252.0,
         category: "Croissants",
         image: "/api/images/croissant",
         ingredients: "Flour, butter, sugar, yeast, salt, milk",
@@ -35,8 +36,9 @@ export class MemStorage implements IStorage {
       {
         id: "2",
         name: "Sourdough Loaf",
-        description: "Artisan sourdough with a crispy crust and tangy flavor. Naturally leavened for 24 hours.",
-        price: 7.99,
+        description:
+          "Artisan sourdough with a crispy crust and tangy flavor. Naturally leavened for 24 hours.",
+        price: 447.44,
         category: "Breads",
         image: "/api/images/sourdough",
         ingredients: "Flour, water, salt, sourdough starter",
@@ -45,8 +47,9 @@ export class MemStorage implements IStorage {
       {
         id: "3",
         name: "Chocolate Éclair",
-        description: "Light choux pastry filled with vanilla cream and topped with rich chocolate ganache.",
-        price: 5.50,
+        description:
+          "Light choux pastry filled with vanilla cream and topped with rich chocolate ganache.",
+        price: 308.0,
         category: "Pastries",
         image: "/api/images/eclair",
         ingredients: "Flour, eggs, butter, cream, chocolate, sugar",
@@ -55,8 +58,9 @@ export class MemStorage implements IStorage {
       {
         id: "4",
         name: "French Baguette",
-        description: "Authentic French baguette with a golden crust and soft, airy interior.",
-        price: 4.99,
+        description:
+          "Authentic French baguette with a golden crust and soft, airy interior.",
+        price: 279.44,
         category: "Breads",
         image: "/api/images/baguette",
         ingredients: "Flour, water, yeast, salt",
@@ -65,8 +69,9 @@ export class MemStorage implements IStorage {
       {
         id: "5",
         name: "Cinnamon Roll",
-        description: "Soft, gooey cinnamon roll drizzled with cream cheese frosting. A customer favorite!",
-        price: 4.99,
+        description:
+          "Soft, gooey cinnamon roll drizzled with cream cheese frosting. A customer favorite!",
+        price: 279.44,
         category: "Pastries",
         image: "/api/images/cinnamon-roll",
         ingredients: "Flour, butter, cinnamon, sugar, cream cheese",
@@ -75,8 +80,9 @@ export class MemStorage implements IStorage {
       {
         id: "6",
         name: "Strawberry Cream Cake",
-        description: "Light sponge cake layered with fresh strawberries and whipped cream.",
-        price: 42.00,
+        description:
+          "Light sponge cake layered with fresh strawberries and whipped cream.",
+        price: 2352.0,
         category: "Cakes",
         image: "/api/images/strawberry-cake",
         ingredients: "Flour, eggs, sugar, cream, strawberries",
@@ -85,8 +91,9 @@ export class MemStorage implements IStorage {
       {
         id: "7",
         name: "Pain au Chocolat",
-        description: "Buttery croissant dough wrapped around premium dark chocolate. Pure indulgence.",
-        price: 4.99,
+        description:
+          "Buttery croissant dough wrapped around premium dark chocolate. Pure indulgence.",
+        price: 279.44,
         category: "Croissants",
         image: "/api/images/pain-au-chocolat",
         ingredients: "Flour, butter, chocolate, sugar, yeast",
@@ -95,8 +102,9 @@ export class MemStorage implements IStorage {
       {
         id: "8",
         name: "Brioche Buns",
-        description: "Soft, buttery brioche buns perfect for burgers or enjoyed on their own. Pack of 4.",
-        price: 8.99,
+        description:
+          "Soft, buttery brioche buns perfect for burgers or enjoyed on their own. Pack of 4.",
+        price: 503.44,
         category: "Breads",
         image: "/api/images/brioche",
         ingredients: "Flour, eggs, butter, sugar, yeast",

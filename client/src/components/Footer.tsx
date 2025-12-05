@@ -16,36 +16,12 @@ export function Footer() {
             <p className="mt-4 max-w-md text-sm text-muted-foreground">
               Artisan pastries and breads, crafted with passion using traditional recipes and the finest ingredients. Baked fresh daily for your enjoyment.
             </p>
-            <div className="mt-4 flex gap-3">
-              <a
-                href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-md bg-muted text-muted-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
-                data-testid="link-instagram"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-md bg-muted text-muted-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
-                data-testid="link-facebook"
-              >
-                <Facebook className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-md bg-muted text-muted-foreground transition-colors hover:bg-primary hover:text-primary-foreground"
-                data-testid="link-twitter"
-              >
-                <SiX className="h-4 w-4" />
-              </a>
-            </div>
           </div>
 
           <div>
             <h3 className="font-semibold">Quick Links</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li><a href="/" className="hover:text-foreground">Home</a></li>
-              <li><a href="/#products" className="hover:text-foreground">Products</a></li>
               <li><a href="/checkout" className="hover:text-foreground">Checkout</a></li>
             </ul>
           </div>
@@ -53,11 +29,11 @@ export function Footer() {
           <div>
             <h3 className="font-semibold">Contact</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>123 Bakery Street</li>
-              <li>New York, NY 10001</li>
+              <li>CCS</li>
+              <li>Pampanga State University</li>
               <li className="pt-2">
                 <a href="tel:+1234567890" className="hover:text-foreground">
-                  (123) 456-7890
+                  09123456789
                 </a>
               </li>
               <li>
@@ -70,7 +46,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>2024 Sweet Delights Bakery. All rights reserved.</p>
+          <p>2025 Sweet Delights Bakery. All rights reserved.</p>
         </div>
       </div>
     </footer>

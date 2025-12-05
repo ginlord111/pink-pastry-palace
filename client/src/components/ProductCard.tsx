@@ -22,7 +22,10 @@ export function ProductCard({ product }: ProductCardProps) {
   };
 
   return (
-    <Card className="group overflow-visible transition-all duration-200 hover:-translate-y-1 hover:shadow-lg" data-testid={`card-product-${product.id}`}>
+    <Card
+      className="group overflow-visible transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+      data-testid={`card-product-${product.id}`}
+    >
       <CardContent className="p-0">
         <div className="relative aspect-square overflow-hidden rounded-t-md">
           <img
@@ -41,17 +44,30 @@ export function ProductCard({ product }: ProductCardProps) {
           </Button>
         </div>
         <div className="p-4">
-          <h3 className="font-semibold leading-tight" data-testid={`text-product-name-${product.id}`}>
+          <h3
+            className="font-semibold leading-tight"
+            data-testid={`text-product-name-${product.id}`}
+          >
             {product.name}
           </h3>
-          <p className="mt-1 line-clamp-2 text-sm text-muted-foreground" data-testid={`text-product-desc-${product.id}`}>
+          <p
+            className="mt-1 line-clamp-2 text-sm text-muted-foreground"
+            data-testid={`text-product-desc-${product.id}`}
+          >
             {product.description}
           </p>
           <div className="mt-3 flex items-center justify-between gap-2">
-            <span className="text-lg font-bold" data-testid={`text-product-price-${product.id}`}>
-              ${product.price.toFixed(2)}
+            <span
+              className="text-lg font-bold"
+              data-testid={`text-product-price-${product.id}`}
+            >
+              ₱ {product.price.toFixed(2)}
             </span>
-            <Button size="sm" onClick={handleAddToCart} data-testid={`button-add-${product.id}`}>
+            <Button
+              size="sm"
+              onClick={handleAddToCart}
+              data-testid={`button-add-${product.id}`}
+            >
               Add to Cart
             </Button>
           </div>
